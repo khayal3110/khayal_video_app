@@ -1,0 +1,50 @@
+.form_error {
+	color: #ff0000;
+	width: 100%;
+	margin-top: 7px;
+}
+
+.toast-icon {
+	height: 2rem;
+	width: 2rem;
+	margin-right: 1rem;
+	color: white;
+}
+
+.toast-text {
+	color: white;
+	margin-right: 12px;
+	margin-bottom: 0;
+}
+
+.custom-toast {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 11px;
+	right: 0;
+	background-color: #008000c7;
+	border-radius: 3px;
+	padding: 0.7rem 1.5rem;
+	transition: all 0.25s ease-out;
+	z-index: 999;
+	width: auto;
+}
+
+.toast-active {
+	right: 6px;
+	opacity: 100%;
+}
+
+.close-button {
+	color: white;
+	background: transparent;
+	cursor: pointer;
+	background: none;
+	font-weight: bolder;
+	border: none;
+}
+
+.custom-toast.error-msg {
+	background: #ff00008f;
+}

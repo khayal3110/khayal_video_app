@@ -1,0 +1,39 @@
+.form-control {
+    border-right: 0;
+    & + .input-group-addon { border-left: 0; }
+
+    &:focus  {
+      border-color: rgb(255, 217, 3) !important; 
+
+    }
+  }
+  .bt-login:hover {
+background-position: -200%;
+transition: background 300ms ease-in-out;
+}
+.bt-login {
+width: 200px;
+border-radius: 5px;
+background-color: #f4cf00;
+background-image: #f4cf00;
+background-image: -moz-linear-gradient(top, #E80505 100%, #f4cf00 100%); 
+background-image: -webkit-linear-gradient(top, #E80505 100%,#f4cf00 100%); 
+background-image: linear-gradient(to bottom, #E80505 0%,#f4cf00 100%); 
+background-size: 300px;
+background-repeat: no-repeat;
+background-position: 0%;
+-webkit-transition: background 300ms ease-in-out;
+transition: background 300ms ease-in-out;
+}
+
+.bg-color{
+	background-image: linear-gradient( 135deg, hsl(50, 97%, 49%) 10%, #E80505 100%);
+
+}
+
+.t-color{
+	background-image: linear-gradient( 135deg, hsl(50, 97%, 49%) 10%, #E80505 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
